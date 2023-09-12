@@ -80,6 +80,79 @@ document.write(cities +"<br>");
 document.write("selected cities list:"+"<br>");
 document.write(selected_cities+"<br><hr>");
 //question12
+document.write("<h2>QUESTION NO 12");
+var arr =["this","is","my","cat"];
+
+var string = arr.join(" ");
+document.write("Array:"+"<br>");
+document.write(Array+"<br>");
+document.write("string:"+"<br>");
+document.write(string+"<br><hr>");
+//question13
+document.write("<h2>QUESTION NO 13");
+let devices =[];
+devices.push("keyboard");
+devices.push("mouse");
+devices.push("printer");
+devices.push("moniter");
+document.write("devices:"+"<br>");
+document.write(devices+"<br><br>");
+let device1 = devices.shift();
+let device2 = devices.shift();
+let device3 = devices.shift();
+let device4 = devices.shift();
+document.write("out:"+"<br>");
+document.write = (device1 + "<br>");
+document.write("out:"+"<br>");
+document.write = (device2 + "<br>");
+document.write("out:"+"<br>");
+document.write = (device3 + "<br>");
+document.write("out:"+"<br>");
+document.write = (device4 + "<br><hr>");
+
+//question14
+document.write("<h2>QUESTION NO 14");
+let accessories = [];
+accessories.push("keyboard");
+accessories.push("mouse");
+accessories.push("printer");
+accessories.push("moniter");
+document.write("devices:"+"<br>");
+document.write(accessories+"<br><br>");
+let accessories1 = accessories.pop();
+let accessories2 = accessories.pop();
+let accessories3 = accessories.pop();
+let accessories4 = accessories.pop();
+document.write("out:"+"<br>");
+document.write = (accessories1 + "<br>");
+document.write("out:"+"<br>");
+document.write = (accessories2 + "<br>");
+document.write("out:"+"<br>");
+document.write = (accessories3 + "<br>");
+document.write("out:"+"<br>");
+document.write = (accessories4 + "<br><hr>");
+
+//question15
+document.write("<h2>QUESTION NO 15");
+let phone = ["apple","samsung","nokia","sony","huawei","motrola"];
+document.write("<select id = phoneselect>");
+document.write(`<option value =apple >${phone[0]}</option>`);
+document.write(`<option value =samsung >${phone[1]}</option>`);
+document.write(`<option value =nokia >${phone[2]}</option>`);
+document.write(`<option value =sony >${phone[3]}</option>`);
+document.write(`<option value =huwaia >${phone[4]}</option>`);
+document.write(`<option value =motorla >${phone[5]}</option>`);
+document.write("</select>");
+
+
+
+
+
+
+
+
+
+
 
 
 
